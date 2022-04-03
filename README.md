@@ -6,3 +6,11 @@ ReMint takes an NFT, created by the MyNFT.sol contract, and locks it into the Nf
 address if the caller owns the NFT dictated by the tokenID.
 
 As of now, the mapping from original NFT to components is done on-chain, but future iterations shall use a metadata standard that includes component info and images.
+
+### MyNFT.sol functions 
+<code>function mintNFT(address recipient, string memory tokenURI) public onlyOwner returns (uint256)</code>
+
+### NftExchange.sol functions 
+<code>function exchangeNFT(uint256 tokenId) public returns (uint256, uint256, uint256, uint256)</code>
+
+<code>function mintNFT(address recipient, string[] memory tokenURI) private onlyOwner returns (uint256, uint256, uint256, uint256)</code>
