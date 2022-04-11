@@ -1,4 +1,6 @@
 # ReMint
+Project can be found here: https://devpost.com/software/remint
+
 ReMint is an proof of concept that demos how an NFT can be broken down into component pieces. 
 Future iterations will allow users to "ReMint" their NFTs from these components, and even exchange their ReMint-ed version for the original.
 
